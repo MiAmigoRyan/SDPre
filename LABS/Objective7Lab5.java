@@ -3,10 +3,9 @@ import java.util.Scanner;
 public class Objective7Lab5 {
   public static void main(String[] args) {
     Scanner kb = new Scanner(System.in);
-    int selection;
-    int i = 0;
+    int selection = 0;
 
-    while (i==0) {
+    while (selection != 3) {
       System.out.println("_____Menu_____");
       System.out.println("1: Say Hello");
       System.out.println("2: List My favorite foods");
@@ -24,7 +23,6 @@ public class Objective7Lab5 {
       	break;
       case 3:
       	System.out.println("Goodbye!");
-      	i++;
       	break;
       default:
       	System.out.println("Sorry, that is not a valid option, please try again.");
