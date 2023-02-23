@@ -1,0 +1,45 @@
+
+body {
+	color : #e2e8ce ;
+	background : #262626;
+	font-family: sans-serif;
+	text-decoration: none;
+
+}
+.header {
+	display : flex ;
+	text-align: center;
+}
+.flex-container {
+	text-align: center;
+	align-content: space-around;
+	align-items: flex-end;
+	display : flex ; 
+	flex-flow : wrap ;
+	padding : 30 ;
+}
+.flex-item {
+
+	color : white;
+	padding : 10px ;
+	font-size: large;
+}
+a, a:visited, a:active {
+	color : white;
+	text-decoration: none;
+}
+a:hover {
+	color : #d5896f ;
+	text-decoration: underline;
+}
+img {
+	height: auto ;
+	max-width: 65% ;
+}
+li{
+	list-style-type: none;
+}
+em {
+	text-decoration: underline, overline;
+}
+
